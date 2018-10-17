@@ -4,9 +4,18 @@ import typeDefs from './typeDefs.graphql'
 
 const start = async () => {
 
-    const server = new ApolloServer({ typeDefs, resolvers })
+    const engine = process.env.NODE_ENV === 'production' ? 
+        { apiKey: process.env.APOLLO_ENGINE_KEY } : 
+        null
+
+    const server = new ApolloServer({ 
+        typeDefs, 
+        resolvers,
+        engine
+    })
+
     await server.listen(4000)
-    console.log('CLAM GraphQL API running')
+    console.log(`CLAM GraphQL API running in ${process.env.NODE_ENV} environment`)
 
 }
 
