@@ -1,11 +1,12 @@
 var webpack = require('webpack')
 var nodeExternals = require('webpack-node-externals')
 var path = require('path')
+require("babel-polyfill")
 
 module.exports = {
     target: 'node',
     externals: [nodeExternals()],
-    entry: "./src/index.js",
+    entry: ["babel-polyfill", "./src/index.js"],
     output: {
         path: path.join(__dirname, 'dist'),
         filename: "index.js",
@@ -19,7 +20,7 @@ module.exports = {
                 exclude: /(node_modules)/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['env']
+                    presets: ['@babel/preset-env']
                 }
             },
             {
