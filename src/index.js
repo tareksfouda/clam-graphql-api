@@ -10,7 +10,10 @@ const start = async () => {
 
     const server = new ApolloServer({ 
         typeDefs, 
-        resolvers
+        resolvers,
+        subscriptions: {
+            lazy: true
+        }
     })
 
     await server.listen(process.env.PORT || 4000)
