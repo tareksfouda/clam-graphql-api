@@ -1,13 +1,15 @@
 language: node_js
 node_js:
-- 8.11.3
-- 10.6.0
+  - 8.11.3
+  - 10.6.0
 deploy:
-  provider: npm
+  provider: heroku
   skip_cleanup: true
   email: alex@moonhighway.com
+  app: clam-graphql-api
+  api_key:
+    secure: pEzsL232T3rTijRQlZZx5D2Bn+YTQ8eln/8AWzHJ9W/KweB/4ad7R054LoMVxZft5QbJnf23Oc66tp5v1bE3b9Nl2WL6IRNeZrssDNKP//NTVtj3ZlOVeWeoseduhVujAEt5eI1S+1rITaKovwHONP4D+CVuMiXfqbmoVSbjj9rkSAw62iyeqlDDlpeecQBy+fFHjQYa3O+A3pVC1Q1mf7lmxcO8o0TWF20sLZzga7qcEFA6PaqeT3Aflyh4tlsealkVI5L512VBkUauIbYQCtd0/oOHYR3ttbMzAPDmm4Ree2GxLaVNW7IiL8ulWxbgNfDB4b7dKhHteeP4sWYGJG5zXcQZm7oLzKJpmRUIPT6U63Bi3dyscdtp+z5mdJZVVyZnBACMsai5qT91L+La8aMI7SldrE3foqHvIF6+KesqUqeoaP6HWhDrKLCrwsxRZ31Xgo1XB+bAc4TmlM4Nxwn7NzsSkJBsBgedY+RmFTt4eYhMc1V3M3BRzvGf6IRlHHzs22GH944i8lV031f9xVfd3MuRinY46oBZwE+44JmzJGVe1SRbkM3hd/xt+V8109RYl8uCfLIvB3Nn9JRYAf/VAiUZQx/pG8zJ+fmLt+3QTUt3/l99zxHPwwOcV3dUPdixnY9ri13nn2NnWAZTCHsQBLJHOS+WcYt9w85BVjw=
   on:
     repo: MoonHighway/clam-graphql-api
     branch: master
-  api_key:
-    secure: pEzsL232T3rTijRQlZZx5D2Bn+YTQ8eln/8AWzHJ9W/KweB/4ad7R054LoMVxZft5QbJnf23Oc66tp5v1bE3b9Nl2WL6IRNeZrssDNKP//NTVtj3ZlOVeWeoseduhVujAEt5eI1S+1rITaKovwHONP4D+CVuMiXfqbmoVSbjj9rkSAw62iyeqlDDlpeecQBy+fFHjQYa3O+A3pVC1Q1mf7lmxcO8o0TWF20sLZzga7qcEFA6PaqeT3Aflyh4tlsealkVI5L512VBkUauIbYQCtd0/oOHYR3ttbMzAPDmm4Ree2GxLaVNW7IiL8ulWxbgNfDB4b7dKhHteeP4sWYGJG5zXcQZm7oLzKJpmRUIPT6U63Bi3dyscdtp+z5mdJZVVyZnBACMsai5qT91L+La8aMI7SldrE3foqHvIF6+KesqUqeoaP6HWhDrKLCrwsxRZ31Xgo1XB+bAc4TmlM4Nxwn7NzsSkJBsBgedY+RmFTt4eYhMc1V3M3BRzvGf6IRlHHzs22GH944i8lV031f9xVfd3MuRinY46oBZwE+44JmzJGVe1SRbkM3hd/xt+V8109RYl8uCfLIvB3Nn9JRYAf/VAiUZQx/pG8zJ+fmLt+3QTUt3/l99zxHPwwOcV3dUPdixnY9ri13nn2NnWAZTCHsQBLJHOS+WcYt9w85BVjw=
+  
