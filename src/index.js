@@ -11,6 +11,7 @@ const start = async () => {
     const server = new ApolloServer({ 
         typeDefs, 
         resolvers,
+        engine,
         introspection: true
     })
 
