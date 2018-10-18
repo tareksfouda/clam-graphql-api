@@ -11,9 +11,7 @@ const start = async () => {
     const server = new ApolloServer({ 
         typeDefs, 
         resolvers,
-        subscriptions: {
-            lazy: true
-        }
+        introspection: true
     })
 
     await server.listen(process.env.PORT || 4000)
