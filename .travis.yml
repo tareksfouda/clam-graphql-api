@@ -11,3 +11,4 @@ deploy:
   app: clam-graphql-api
   on:
     repo: MoonHighway/clam-graphql-api
+    branch: master
