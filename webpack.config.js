@@ -5,6 +5,7 @@ require("babel-polyfill")
 
 module.exports = {
     target: 'node',
+    externals: [nodeExternals()],
     entry: ["babel-polyfill", "./src/index.js"],
     output: {
         path: path.join(__dirname, 'dist'),
