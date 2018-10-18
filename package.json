@@ -8,9 +8,9 @@
     "url": "https://github.com/MoonHighway/clam-graphql-api"
   },
   "scripts": {
+    "build": "webpack -p",
+    "prestart": "npm run build",
     "start": "node ./dist",
-    "pretest": "webpack -p",
-    "test": "echo 'TODO: ADD TESTING'",
     "start:dev": "nodemon --exec babel-node ./src"
   },
   "keywords": [],
