@@ -9,7 +9,6 @@
   },
   "scripts": {
     "build": "webpack -p",
-    "prestart": "npm run build",
     "start": "node ./dist",
     "start:dev": "nodemon --exec babel-node ./src"
   },
