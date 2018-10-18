@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/MoonHighway/clam-api"
+    "url" : "https://github.com/MoonHighway/clam-graphql-api"
   },
   "scripts": {
     "build": "webpack -p",

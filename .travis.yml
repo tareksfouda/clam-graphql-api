@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- 8.11.3
+- 10.6.0
+deploy:
+  provider: heroku
+  skip_cleanup: true 
+  email: alex@moonhighway.com
+  api_key:
+    secure: nocrawXyrH0VK8OAasLOc5GGVGdT32A2RRdQcZQkvJBdSjiurR01X8aKcTZ8NXCPImvarvDq4MooJh+ce0Pk7ylnwpnqVKqYIhepvqjNwBHY9v8j6O5HWIN59ZVfhduKrKwEfkyBRJuB0SPK1FP2eg1tEiWGiZ53fDpuoeTLt9QijfA+g/fDtxSgaQZr7zc/rp8EG+Ml8ktpqjPkUR5KDOmI803zV52iAv1vvUiQcSqB8Ni2tY4Aliagub5zT9v1k2B3hb8AAjgElCW4FhXbQQoCLjCDf/k62EI1OJtfaiZOhMf+YWrBVxYePbUvh6zrlbgu0hA06zgX13AUiSva1ZYmE0LBIEIQzaEDYWSjWqg6RAyGNQYO8O8DKK4lvhJPLdy9WU0gddQzjKSkmzM4/HYDGvlSG9wTwFI9YMRH1PPConQfp133l8CvBlnlc5kJkfDhTqdgJgbXuB+vnebkBl6dycZnBOV4Dfff6/k1RERPYwXnlVbrMqtrInOJdjHLwZlx2NtDLjoK6wXwC+zZiX7kIL5Qmpv4nDmbM4qwr9/e6ZQgzZsLbibrih8VliXteSGdLwGggTOxviuSZW5jfG62Zil9mSrWJ0peds91D5LLXTOcYhTQuskTXXjQVVrmDku6JabI8tZ4LWF5r9ileYRtmGYRfDK9D3sVtnbxQDg=
+  app: clam-graphql-api
+  on:
+    repo: MoonHighway/clam-graphql-api
