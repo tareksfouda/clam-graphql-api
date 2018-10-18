@@ -14,7 +14,7 @@ const start = async () => {
         engine
     })
 
-    await server.listen(4000)
+    await server.listen(process.env.PORT || 4000)
     console.log(`CLAM GraphQL API running in ${process.env.NODE_ENV} environment`)
 
 }
