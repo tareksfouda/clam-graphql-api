@@ -1,5 +1,5 @@
 export default {
     Query: {
-        gnar: () => 'gnarley!!!'
+        ready: () => true
     }
 }

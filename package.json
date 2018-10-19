@@ -10,7 +10,7 @@
   "scripts": {
     "build": "webpack -p",
     "start": "node ./dist",
-    "start:dev": "nodemon --exec babel-node ./src"
+    "start:dev": "nodemon --exec babel-node ./src -e js,graphql"
   },
   "keywords": [],
   "author": "",
