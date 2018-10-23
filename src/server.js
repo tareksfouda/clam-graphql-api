@@ -5,8 +5,7 @@ import typeDefs from './typeDefs.graphql'
 export const start = async () => {
 
     const engine = process.env.NODE_ENV === 'production' ? 
-        { apiKey: process.env.ENGINE_API_KEY } : 
-        null
+        { apiKey: process.env.ENGINE_API_KEY } : ''
 
     const server = new ApolloServer({ 
         typeDefs, 
