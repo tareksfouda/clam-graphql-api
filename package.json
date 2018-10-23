@@ -2,7 +2,7 @@
   "name": "clam-api",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.config.js",
+  "main": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/MoonHighway/clam-graphql-api"
@@ -10,7 +10,10 @@
   "scripts": {
     "build": "webpack -p",
     "start": "node ./dist",
-    "start:dev": "nodemon --exec babel-node ./src -e js,graphql"
+    "test": "jest --coverage",
+    "dev:start": "nodemon --exec babel-node ./src -e js,graphql",
+    "dev:test": "jest --watch",
+    "dev:coverage": "open ./coverage/lcov-report/index.html"
   },
   "keywords": [],
   "author": "",
@@ -24,12 +27,31 @@
     "@babel/core": "^7.1.2",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
     "babel-plugin-import-graphql": "^2.6.2",
     "babel-plugin-inline-dotenv": "^1.1.2",
     "dotenv": "^6.1.0",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.4",
+    "regenerator-runtime": "^0.12.1",
     "webpack": "^4.21.0",
     "webpack-cli": "^3.1.2",
     "webpack-node-externals": "^1.7.2"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
-export default {
-    Query: {
-        ready: () => true
-    }
-}
+import { ready } from './ready'
+
+export default { 
+    Query: { ready }
+ }
