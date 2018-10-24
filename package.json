@@ -8,8 +8,10 @@
     "url": "https://github.com/MoonHighway/clam-graphql-api"
   },
   "scripts": {
+    "format": "prettier --write '**.js'; prettier --write '**.md'; prettier --write '**.json';",
     "build": "webpack -p",
     "start": "node ./dist",
+    "pretest": "npm run format",
     "test": "jest --coverage; npm run test:functional",
     "test:functional": "cucumber-js --require-module @babel/register --require-module @babel/preset-env --require-module babel-polyfill --require-module dotenv/config",
     "dev:start": "nodemon --exec babel-node ./src -e js,graphql",
@@ -44,6 +46,7 @@
     "jest": "^23.6.0",
     "node-fetch": "^2.2.0",
     "nodemon": "^1.18.4",
+    "prettier": "^1.14.3",
     "regenerator-runtime": "^0.12.1",
     "webpack": "^4.21.0",
     "webpack-cli": "^3.1.2",

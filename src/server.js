@@ -3,20 +3,23 @@ import resolvers from './resolvers'
 import typeDefs from './typeDefs.graphql'
 
 export const start = async () => {
+  const engine =
+    process.env.NODE_ENV === 'production'
+      ? { apiKey: process.env.ENGINE_API_KEY }
+      : ''
 
-    const engine = process.env.NODE_ENV === 'production' ? 
-        { apiKey: process.env.ENGINE_API_KEY } : ''
+  const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+    engine,
+    introspection: true
+  })
 
-    const server = new ApolloServer({ 
-        typeDefs, 
-        resolvers,
-        engine,
-        introspection: true
-    })
+  let { port, url, subscriptionsUrl, subscriptionsPath } = await server.listen(
+    process.env.PORT || 4000
+  )
 
-    let { port, url, subscriptionsUrl, subscriptionsPath } = await server.listen(process.env.PORT || 4000)
-
-    console.log(`
+  console.log(`
         CLAM GraphQL API running
         ========================
         environment: ${process.env.NODE_ENV}
@@ -25,5 +28,4 @@ export const start = async () => {
         subscriptionsPath: ${subscriptionsPath}
         subscriptionsUrl: ${subscriptionsUrl}
     `)
-
 }
