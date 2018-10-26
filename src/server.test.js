@@ -19,7 +19,7 @@ describe('./start-apollo-server', () => {
     expect(console.log).toBeCalledWith(`
         CLAM GraphQL API running
         ========================
-        environment: development
+        engine: false
         url: http://test
         port: 1111
         subscriptionsPath: ?
@@ -28,7 +28,6 @@ describe('./start-apollo-server', () => {
   })
 
   it('adds engine key in production', async () => {
-    process.env.NODE_ENV = 'production'
     process.env.ENGINE_API_KEY = 'test'
     await start()
   })
