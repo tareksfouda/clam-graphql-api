@@ -1,5 +1,6 @@
 import { ApolloServer } from 'apollo-server'
 import resolvers from './resolvers'
+import counselors from './data/counselors.json'
 
 /* Importing TypeDefs is a little brittle
 
@@ -10,24 +11,24 @@ import resolvers from './resolvers'
    instantly appear. At present, for that we must read the file directly
    until there is a better solution.
 
-*/
+   Temporary solution: 
 
-// Temporary solution
+*/
 import { readFileSync } from 'fs'
 const typeDefs = readFileSync('./src/typeDefs.graphql', 'UTF-8')
-
 // import typeDefs from './typeDefs.graphql'
-
-console.log(typeDefs)
 
 export const start = async () => {
   const engine = process.env.ENGINE_API_KEY
     ? { apiKey: process.env.ENGINE_API_KEY }
     : null
 
+  const context = { counselors }
+
   const server = new ApolloServer({
     typeDefs,
     resolvers,
+    context,
     engine,
     introspection: true
   })

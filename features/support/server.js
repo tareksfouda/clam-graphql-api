@@ -3,11 +3,11 @@ import { spawn } from 'child_process'
 let server
 
 export const startServer = () =>
-    new Promise((resolve, reject) => {
-        server = spawn('node', ['./dist/index.js'])
-        server.stdout.on('error', reject)
-        server.stdout.on('data', d => resolve(d.toString()))
-    })
+  new Promise((resolve, reject) => {
+    server = spawn('node', ['./dist/index.js'])
+    server.stdout.on('error', reject)
+    server.stdout.on('data', d => resolve(d.toString()))
+  })
 
 export const stopServer = () => {
   if (server) {

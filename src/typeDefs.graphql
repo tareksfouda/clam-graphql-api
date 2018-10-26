@@ -1,3 +1,51 @@
+"""
+A selection of counselor ranks: `ALPHA`, `BETA`, and `RELEASE_CANDIDATE`
+"""
+enum Rank {
+  ALPHA
+  BETA
+  RELEASE_CANDIDATE
+}
+
+"""
+A `Photo` object containing links to fullsize and thumbnail images
+"""
+type Photo {
+  full: String
+  thumb: String
+}
+
+"""
+An object describing a `Counselor`
+"""
+type Counselor {
+  "Returns a unique identifier for the counselor"
+  id: ID!
+  "Returns a counselor's full name"
+  name: String!
+  "Returns a short bio describing the counselor"
+  bio: String
+  "Returns a counselor's rank"
+  rank: Rank
+  "Returns a `Photo` object"
+  photo: Photo
+  "Returns the counselor's Twitter handle"
+  twitterHandle: String
+  "Returns the counselor's GitHub handle"
+  githubHandle: String
+}
+
+"""
+The queries available for the CLAM API
+"""
 type Query {
-    ready: Boolean
+  "Returns a list of counselors. Allows for optional filtering by `Rank`"
+  totalCounselors("Optional rank argument for filtering" rank: Rank): Int!
+  "Returns all counselor data. Allows for optional filtering by `Rank`"
+  allCounselors(
+    "Optional rank argument for filtering"
+    rank: Rank
+  ): [Counselor!]!
+  "Returns a counselor by `id`"
+  findCounselorById("Optional id argument for filtering" id: ID!): Counselor
 }

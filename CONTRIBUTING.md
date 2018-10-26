@@ -17,12 +17,12 @@ Run the following command: `npm install dev:start`.
 This project is set up with tests that can be executed with the following npm
 commands:
 
-| Command                                                  | Description               |
-| -------------------------------------------------------- | ------------------------- |
-| `npm run test`                                           | Runs all tests + prettier |
-| `npm run test:functional`                                | Runs cucumber tests       |
-| `npm run dev:test | Runs Jest tests with a watch command |
-| `npm run dev:coverage`                                   | Runs test coverage report |
+| Command                   | Description                          |
+| ------------------------- | ------------------------------------ |
+| `npm run test`            | Runs all tests + prettier            |
+| `npm run test:functional` | Runs cucumber tests                  |
+| `npm run dev:test`        | Runs Jest tests with a watch command |
+| `npm run dev:coverage`    | Runs test coverage report            |
 
 ## Committing Your Changes
 

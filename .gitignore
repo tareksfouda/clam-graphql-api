@@ -10,3 +10,5 @@ node_modules/
 # Coverage
 coverage/
 .DS_Store
+
+.vscode/
