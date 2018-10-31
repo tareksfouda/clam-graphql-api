@@ -30,14 +30,8 @@ module.exports = {
       }
     ]
   },
-  plugins:
-    process.env.NODE_ENV !== 'production'
-      ? []
-      : [
-          new webpack.optimize.UglifyJsPlugin({
-            sourceMap: true,
-            warnings: false,
-            mangle: true
-          })
-        ]
+  plugins: [
+    new webpack.DefinePlugin('@babel/plugin-transform-destructuring'),
+    new webpack.DefinePlugin('@babel/plugin-proposal-object-rest-spread')
+  ]
 }

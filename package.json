@@ -8,15 +8,16 @@
     "url": "https://github.com/MoonHighway/clam-graphql-api"
   },
   "scripts": {
-    "format": "prettier --write '**.js'; prettier --write '**.md'; prettier --write '**.json';",
+    "format": "prettier --write '**/*.js'; prettier --write '**/*.md'; prettier --write '**/*.json';",
     "build": "webpack -p",
     "start": "node ./dist",
-    "pretest": "npm run format",
+    "pretest": "npm run format; npm run build;",
     "test": "jest --coverage; npm run test:functional",
-    "test:functional": "cucumber-js --require-module @babel/register --require-module @babel/preset-env --require-module babel-polyfill --require-module dotenv/config",
+    "pretest:functional": "npm run build",
+    "test:functional": "cucumber-js --require-module @babel/register --require-module @babel/preset-env --require-module babel-polyfill --require-module dotenv/config --require-module @babel/plugin-proposal-object-rest-spread --require-module @babel/plugin-transform-destructuring",
     "dev:start": "nodemon --exec babel-node ./src -e js,graphql",
     "dev:test": "jest --watch",
-    "predev:functional": "clear",
+    "predev:functional": "clear; npm run build;",
     "dev:functional": "npm run test:functional -- -f node_modules/cucumber-pretty",
     "dev:coverage": "open ./coverage/lcov-report/index.html"
   },
@@ -31,6 +32,8 @@
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-destructuring": "^7.1.3",
     "@babel/preset-env": "^7.1.0",
     "apollo-boost": "^0.1.17",
     "apollo-client": "^2.4.3",

@@ -1,4 +1,9 @@
 {
-    "presets": ["@babel/preset-env"],
-    "plugins": ["import-graphql", "inline-dotenv"]
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    "@babel/plugin-transform-destructuring",
+    "@babel/plugin-proposal-object-rest-spread",
+    "import-graphql",
+    "inline-dotenv"
+  ]
 }

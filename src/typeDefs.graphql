@@ -48,4 +48,6 @@ type Query {
   ): [Counselor!]!
   "Returns a counselor by `id`"
   findCounselorById("Optional id argument for filtering" id: ID!): Counselor
+  "returns the github url that campers can use to obtain an authroization code from github"
+  githubAuthUrl: String!
 }
