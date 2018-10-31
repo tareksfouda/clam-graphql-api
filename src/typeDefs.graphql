@@ -1,52 +1,61 @@
 """
-A selection of counselor ranks: `ALPHA`, `BETA`, and `RELEASE_CANDIDATE`
+The current rank of a counselor. Ranks are acheived
+by interacting successfully with bad campers.
 """
 enum Rank {
+  "The first level that a camp counselor starts out at"
   ALPHA
+  "The second level acheived as a camp counselor"
   BETA
+  """
+  The highest level of camp counselor or a
+  counselor who is sick of camp and is ready to leave
+  """
   RELEASE_CANDIDATE
 }
 
 """
-A `Photo` object containing links to fullsize and thumbnail images
+A visual image conatining a snapshot of real
+life that doesn't quite capture really being in that moment.
 """
 type Photo {
+  "A large full sized image"
   full: String
+  "A smaller thumbnail image for lists"
   thumb: String
 }
 
 """
-An object describing a `Counselor`
+A passionate volunteer who has dedicated their summer
+towards making a difference in a camper's life.
+Or someone from egghead.io or Apollo.
 """
 type Counselor {
-  "Returns a unique identifier for the counselor"
+  "A unique identifier for the counselor"
   id: ID!
-  "Returns a counselor's full name"
+  "The counselor's real full name"
   name: String!
-  "Returns a short bio describing the counselor"
+  "A short bio describing fake stuff about the counselor"
   bio: String
-  "Returns a counselor's rank"
+  "The fake rank that thie counselor has achieved"
   rank: Rank
-  "Returns a `Photo` object"
+  "A real picture of the counselor"
   photo: Photo
-  "Returns the counselor's Twitter handle"
+  "The counselor's real Twitter handle"
   twitterHandle: String
-  "Returns the counselor's GitHub handle"
+  "The counselor's real GitHub handle"
   githubHandle: String
 }
 
-"""
-The queries available for the CLAM API
-"""
 type Query {
-  "Returns a list of counselors. Allows for optional filtering by `Rank`"
-  totalCounselors("Optional rank argument for filtering" rank: Rank): Int!
-  "Returns all counselor data. Allows for optional filtering by `Rank`"
+  "The total number of counselors at Camp Lambda."
+  totalCounselors("Allows for optional filtering by `Rank`" rank: Rank): Int!
+  "All data about every counselor at Camp Lambda. Allows for optional filtering by `Rank`"
   allCounselors(
-    "Optional rank argument for filtering"
+    "Allows for optional filtering by `Rank`"
     rank: Rank
   ): [Counselor!]!
-  "Returns a counselor by `id`"
+  "Finds an individual counselor using their id"
   findCounselorById("Optional id argument for filtering" id: ID!): Counselor
   "returns the github url that campers can use to obtain an authroization code from github"
   githubAuthUrl: String!
