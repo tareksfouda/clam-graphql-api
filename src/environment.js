@@ -1,1 +1,3 @@
-export default val => process.env[val]
+export default val => {
+  return process.env[val]
+}
