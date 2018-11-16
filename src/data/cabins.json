@@ -1,0 +1,74 @@
+[
+  {
+    "animal": "raccoon",
+    "photo": {
+      "fullSize": "raccoon.jpg",
+      "thumb": "raccoon-thumb.jpg"
+    },
+    "description": "Named after the animal who looks like if a fat cat robbed banks, this cabin is perfect for any child scavengers. You don't have to eat trash to live in this cabin, but it's better if you do."
+  },
+  {
+    "animal": "owl",
+    "photo": {
+      "fullSize": "owl.jpg",
+      "thumb": "owl-thumb.jpg"
+    },
+    "description": "This cabin is a real hoot. If you're assigned this cabin, be forewarned that you'll need to stay awake all night watching over the camp from a tall tree. You're welcome to take naps during the day."
+  },
+  {
+    "animal": "bear",
+    "photo": {
+      "fullSize": "bear-jpg",
+      "thumb": "bear-thumb.jpg"
+    },
+    "description": "The Bear Cabin is probably the best equipped for sleeping. With blackout curtains, soft beds, and enforced quiet hours, the Bear Cabin allows children to focus on what's important at a fun-filled summer camp: sleep."
+  },
+  {
+    "animal": "deer",
+    "photo": {
+      "fullSize": "deer.jpg",
+      "thumb": "deer-thumb.jpg"
+    },
+    "description": "Sleek lines and muted colors set this cabin apart from other options. In the Deer Cabin, you'll be expected to be quiet but unpredictable. If you want to relax and then suddenly be very not relaxed, the Deer Cabin is for you."
+  },
+  {
+    "animal": "fox",
+    "photo": {
+      "fullSize": "fox.jpg",
+      "thumb": "fox-thumb.jpg"
+    },
+    "description": "This cabin, more of a den really, is small, cozy, and filled with people. Using every inch of the space, campers can expect to sleep in four level bunk beds."
+  },
+  {
+    "animal": "skunk",
+    "photo": {
+      "fullSize": "skunk.jpg",
+      "thumb": "skunk-thumb.jpg"
+    },
+    "description": "If you smell kind of weird, this cabin is for you. A small a-frame nestled in the trees, you'll hate the smell but love the confidence of whoever didn't fix this problem."
+  },
+  {
+    "animal": "porcupine",
+    "photo": {
+      "fullSize": "porcupine.jpg",
+      "thumb": "porcupine-thumb.jpg"
+    },
+    "description": "Prickly yet cute, the Porcupine Cabin is one of the most spacious of the Camp Lambda accommodation options. As such, we have filled it to capacity to make it feel like the other cabins."
+  },
+  {
+    "animal": "rabbit",
+    "photo": {
+      "fullSize": "rabbit.jpg",
+      "thumb": "rabbit-thumb.jpg"
+    },
+    "description": "Hop on over to the Rabbit Cabin where vegetarians will love the strict no meat policy. Sleep on a bed of soft cotton. Enjoy."
+  },
+  {
+    "animal": "bird",
+    "photo": {
+      "fullSize": "bird.jpg",
+      "thumb": "bird-thumb.jpg"
+    },
+    "description": "Have you ever watched a majestic bird take to the sky and soar? That's what you'll feel like when you stay in this small wooden shack that we call the Bird Cabin."
+  }
+]

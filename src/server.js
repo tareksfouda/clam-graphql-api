@@ -1,6 +1,7 @@
 import { ApolloServer } from 'apollo-server'
 import resolvers from './resolvers'
 import counselors from './data/counselors.json'
+import cabins from './data/cabins.json'
 
 /* Importing TypeDefs is a little brittle
 
@@ -23,7 +24,7 @@ export const start = async () => {
     ? { apiKey: process.env.ENGINE_API_KEY }
     : null
 
-  const context = { counselors }
+  const context = { counselors, cabins }
 
   const server = new ApolloServer({
     typeDefs,

@@ -1,128 +1,137 @@
 [
   {
-    "id": "1",
+    "id": "moontahoe",
     "email": "alex@camplambda.com",
     "name": "Alex Banks",
     "bio": "Alex Banks is the owner and operator of Camp Lambda and an all-around cool guy. One time a camper got bit by a snake, and Alex saved the kid’s life. And, then Alex bit that snake. That's just the kind of guy Alex is.",
     "rank": "ALPHA",
-    "twitterHandle": "@moontahoe",
-    "githubHandle": "@moontahoe"
+    "twitterHandle": "moontahoe",
+    "githubHandle": "moontahoe",
+    "cabinId": "bear"
   },
   {
-    "id": "2",
+    "id": "jlengstorf",
     "email": "jason@camplambda.com",
     "name": "Jason Lengstorf",
     "bio": "Jason is the human equivalent of a capybara. He likes you. Also he likes snacks. He’ll like you more if you bring snacks.",
     "rank": "BETA",
-    "twitterHandle": "@jlengstorf",
-    "githubHandle": "@jlengstorf"
+    "twitterHandle": "jlengstorf",
+    "githubHandle": "jlengstorf",
+    "cabinId": "owl"
   },
   {
-    "id": "3",
+    "id": "sarahronau",
     "email": "sarah@camplambda.com",
     "name": "Sarah Ronau",
     "bio": "Sarah excels at falling into creeks and eating backpacking meals before they've cooked. She is always full of songs, snacks and animal puns. Camp activities include: solo canoeing in a circle, complaining about the altitude, and naming all marmots encountered.",
     "rank": "ALPHA",
-    "twitterHandle": "@sarahronau",
-    "githubHandle": "@sarahronau"
+    "twitterHandle": "sarahronau",
+    "githubHandle": "sarahronau",
+    "cabinId": "porcupine"
   },
   {
-    "id": "4",
+    "id": "andrewdelprete",
     "email": "andrew@camplambda.com",
     "name": "Andrew Del Prete",
     "bio": "When Andrew isn’t writing CSS in his JavaScript, he’s chopping wood with one hand, wrestling a bear with the other, and frequently whispering to salmon.",
     "rank": "RELEASE_CANDIDATE",
-    "twitterHandle": "@andrewdelprete",
-    "githubHandle": "@andrewdelprete"
+    "twitterHandle": "andrewdelprete",
+    "githubHandle": "andrewdelprete",
+    "cabinId": "rabbit"
   },
   {
-    "id": "5",
+    "id": "kentcdodds",
     "email": "kent@camplambda.com",
     "name": "Kent C Dodds",
     "bio": "Howdy there! Kent is Camp Lambda's horse expert, and he also is in charge of Arts and Crafts. He also manages Song Night. I guess you could say that Kent C. Dodds is a busy guy.",
     "rank": "BETA",
-    "twitterHandle": "@kentcdodds",
-    "githubHandle": "@kentcdodds"
+    "twitterHandle": "kentcdodds",
+    "githubHandle": "kentcdodds",
+    "cabinId": "bird"
   },
   {
-    "id": "6",
+    "id": "jsjoeio",
     "email": "joe@camplambda.com",
     "name": "Joe Previte",
     "bio": "Joe once ate an entire bag of marshmallows--in one night--without any chocolate or graham crackers. You could say he likes to live on the wild side. When he’s not hiking, he’s probably eating.",
     "rank": "RELEASE_CANDIDATE",
-    "twitterHandle": "@jsjoeio",
-    "githubHandle": "@jsjoeio"
+    "twitterHandle": "jsjoeio",
+    "githubHandle": "jsjoeio",
+    "cabinId": "deer"
   },
   {
-    "id": "7",
+    "id": "joelhooks",
     "email": "joel@camplambda.com",
     "name": "Joel Hooks",
     "bio": "Tasty meats? You betcha! Through years of experience, Chef Joel will be providing you with the freshest of meals full of delicious vitamins and plenty of protein.",
     "rank": "RELEASE_CANDIDATE",
-    "twitterHandle": "@jhooks",
-    "githubHandle": "@joelhooks"
+    "twitterHandle": "jhooks",
+    "githubHandle": "joelhooks"
   },
   {
-    "id": "8",
+    "id": "eveporcello",
     "email": "eve@camplambda.com",
     "name": "Eve Porcello",
     "bio": "No one wanted to be in charge of the canoes this season, so we had Eve do it. Now most of the canoes are lost, stolen, or filled with bees. She didn't turn in her bio.",
     "rank": "ALPHA",
-    "twitterHandle": "@eveporcello",
-    "githubHandle": "@eveporcello"
+    "twitterHandle": "eveporcello",
+    "githubHandle": "eveporcello"
   },
   {
-    "id": "9",
+    "id": "kyleshevlin",
     "email": "kyle@camplambda.com",
     "name": "Kyle Shevlin",
     "bio": "Kyle has been a camp counselor for 5 years and has perfected the art of the side hug. He enjoys golf, guitar, singing, night hikes on the open prairie, and full denial of his impending baldness.",
     "rank": "ALPHA",
-    "twitterHandle": "@kyleshevlin",
-    "githubHandle": "@kyleshevlin"
+    "twitterHandle": "kyleshevlin",
+    "githubHandle": "kyleshevlin",
+    "cabinId": "raccoon"
   },
   {
-    "id": "10",
+    "id": "knitcodemonkey",
     "email": "jen@camplambda.com",
     "name": "Jen Luker",
     "bio": "When you are ready to take a break from the great outdoors, you can join Jen in the arts and crafts cabin where she teaches knitting, crocheting, and spinning yarn.",
     "rank": "RELEASE_CANDIDATE",
-    "twitterHandle": "@knitcodemonkey",
-    "githubHandle": "@knitcodemonkey"
+    "twitterHandle": "knitcodemonkey",
+    "githubHandle": "knitcodemonkey",
+    "cabinId": "fox"
   },
   {
-    "id": "11",
+    "id": "jakedawkins",
     "email": "jake@camplambda.com",
     "name": "Jake Dawkins",
     "bio": "Jake doesn't have time for bios. He has time for freedom.",
     "rank": "BETA",
-    "twitterHandle": "@jakedawkins",
-    "githubHandle": "@jakedawkins"
+    "twitterHandle": "jakedawkins",
+    "githubHandle": "jakedawkins"
   },
   {
-    "id": "12",
+    "id": "dabit3",
     "email": "nader@camplambda.com",
     "name": "Nader Dabit",
     "bio": "If you're a camper and you're hanging out with Nader, you probably did something dangerous. Nader is in charge of discipline at Camp Lambda, so behave.",
     "rank": "ALPHA",
-    "twitterHandle": "@dabit3",
-    "githubHandle": "@dabit3"
+    "twitterHandle": "dabit3",
+    "githubHandle": "dabit3"
   },
   {
-    "id": "13",
+    "id": "jnwng",
     "email": "jon@camplambda.com",
     "name": "Jon Wong",
     "bio": "Jon Wong is the resident surfing expert at Camp Lambda. Camp Lambda is not near the ocean, but he wants you to understand that he can teach you about surfing.",
     "rank": "BETA",
-    "twitterHandle": "@jnwng",
-    "githubHandle": "@jnwng"
+    "twitterHandle": "jnwng",
+    "githubHandle": "jnwng"
   },
   {
-    "id": "14",
+    "id": "mannisaac",
     "email": "isaac@camplambda.com",
     "name": "Isaac Mann",
     "bio": "Isaac gets lost. A lot. But he finds interesting things while he's at it. He always carries an extra can of spam for emergencies.",
     "rank": "RELEASE_CANDIDATE",
-    "twitterHandle": "@isaacplmann",
-    "githubHandle": "@MannIsaac"
+    "twitterHandle": "isaacplmann",
+    "githubHandle": "mannisaac",
+    "cabinId": "skunk"
   }
 ]

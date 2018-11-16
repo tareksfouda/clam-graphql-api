@@ -43,7 +43,7 @@ Feature: Counselors
         "name": "Alex Banks",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/alex-banks-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/moontahoe-thumb.jpg"
         }
       },
       {
@@ -51,7 +51,7 @@ Feature: Counselors
         "name": "Jason Lengstorf",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/jason-lengstorf-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/jlengstorf-thumb.jpg"
         }
       },
       {
@@ -59,7 +59,7 @@ Feature: Counselors
         "name": "Sarah Ronau",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/sarah-ronau-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/sarahronau-thumb.jpg"
         }
       },
       {
@@ -67,7 +67,7 @@ Feature: Counselors
         "name": "Andrew Del Prete",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/andrew-del-prete-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/andrewdelprete-thumb.jpg"
         }
       },
       {
@@ -75,7 +75,7 @@ Feature: Counselors
         "name": "Kent C Dodds",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/kent-c-dodds-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/kentcdodds-thumb.jpg"
         }
       },
       {
@@ -83,7 +83,7 @@ Feature: Counselors
         "name": "Joe Previte",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/joe-previte-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/jsjoeio-thumb.jpg"
         }
       },
       {
@@ -91,7 +91,7 @@ Feature: Counselors
         "name": "Joel Hooks",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/joel-hooks-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/joelhooks-thumb.jpg"
         }
       },
       {
@@ -99,7 +99,7 @@ Feature: Counselors
         "name": "Eve Porcello",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/eve-porcello-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/eveporcello-thumb.jpg"
         }
       },
       {
@@ -107,7 +107,7 @@ Feature: Counselors
         "name": "Kyle Shevlin",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/kyle-shevlin-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/kyleshevlin-thumb.jpg"
         }
       },
       {
@@ -115,7 +115,7 @@ Feature: Counselors
         "name": "Jen Luker",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/jen-luker-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/knitcodemonkey-thumb.jpg"
         }
       },
       {
@@ -123,7 +123,7 @@ Feature: Counselors
         "name": "Jake Dawkins",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/jake-dawkins-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/jakedawkins-thumb.jpg"
         }
       },
       {
@@ -131,7 +131,7 @@ Feature: Counselors
         "name": "Nader Dabit",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/nader-dabit-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/dabit3-thumb.jpg"
         }
       },
       {
@@ -139,7 +139,7 @@ Feature: Counselors
         "name": "Jon Wong",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/jon-wong-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/jnwng-thumb.jpg"
         }
       },
       {
@@ -147,7 +147,7 @@ Feature: Counselors
         "name": "Isaac Mann",
         "photo": {
           "__typename": "Photo",
-          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/isaac-mann-thumb.jpg"
+          "thumb": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/mannisaac-thumb.jpg"
         }
       }
     ]}
@@ -157,7 +157,7 @@ Feature: Counselors
     When I send the following operation: 
     ```
     query {
-      findCounselorById(id:"1") {
+      findCounselorById(id:"moontahoe") {
         id
         name
         bio
@@ -173,17 +173,18 @@ Feature: Counselors
     Then I should receive the following data payload:
     ```
     { 
-      "findCounselorById": {
-        "__typename": "Counselor",
-        "id": "1",
-        "name": "Alex Banks",
-        "bio": "Alex Banks is the owner and operator of Camp Lambda and an all-around cool guy. One time a camper got bit by a snake, and Alex saved the kid’s life. And, then Alex bit that snake. That's just the kind of guy Alex is.",
-        "rank": "ALPHA",
-        "twitterHandle": "@moontahoe",
-        "githubHandle": "@moontahoe",
-        "photo": {
-          "__typename": "Photo",
-          "full": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/alex-banks.jpg"
-        }
-    }}
+    "findCounselorById": {
+      "__typename": "Counselor",
+      "id": "moontahoe",
+      "name": "Alex Banks",
+      "bio": "Alex Banks is the owner and operator of Camp Lambda and an all-around cool guy. One time a camper got bit by a snake, and Alex saved the kid’s life. And, then Alex bit that snake. That's just the kind of guy Alex is.",
+      "rank": "ALPHA",
+      "twitterHandle": "moontahoe",
+      "githubHandle": "moontahoe",
+      "photo": {
+        "__typename": "Photo",
+        "full": "https://res.cloudinary.com/hmaz4q3oh/image/upload/v1540518371/counselors/moontahoe.jpg"
+      }
+      }
+    }
     ```
