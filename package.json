@@ -10,7 +10,6 @@
   "scripts": {
     "format": "prettier --write '**/*.js'; prettier --write '**/*.md'; prettier --write '**/*.json';",
     "build": "webpack -p",
-    "postinstall": "npm run build",
     "prestart": "npm run build",
     "start": "node ./dist",
     "pretest": "npm run format; npm run build;",
