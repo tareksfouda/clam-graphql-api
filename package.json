@@ -10,11 +10,10 @@
   "scripts": {
     "format": "prettier --write '**/*.js'; prettier --write '**/*.md'; prettier --write '**/*.json';",
     "build": "webpack -p",
-    "prestart": "npm run build",
+    "postinstall": "npm run build",
     "start": "node ./dist",
-    "pretest": "npm run format; npm run build;",
+    "pretest": "npm run format;",
     "test": "jest --coverage; npm run test:functional",
-    "pretest:functional": "npm run build",
     "test:functional": "cucumber-js --require-module @babel/register --require-module @babel/preset-env --require-module @babel/polyfill --require-module dotenv/config --require-module @babel/plugin-proposal-object-rest-spread --require-module @babel/plugin-transform-destructuring",
     "dev:start": "nodemon --exec babel-node ./src -e js,graphql",
     "dev:test": "jest --watch",
