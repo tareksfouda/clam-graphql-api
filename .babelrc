@@ -3,7 +3,6 @@
   "plugins": [
     "@babel/plugin-transform-destructuring",
     "@babel/plugin-proposal-object-rest-spread",
-    "import-graphql",
-    "inline-dotenv"
+    "import-graphql"
   ]
 }

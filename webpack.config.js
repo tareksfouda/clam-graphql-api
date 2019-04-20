@@ -5,7 +5,7 @@ var path = require('path')
 module.exports = {
   target: 'node',
   externals: [nodeExternals()],
-  entry: './src/index.js',
+  entry: ['@babel/polyfill', './src/index.js'],
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'index.js',
